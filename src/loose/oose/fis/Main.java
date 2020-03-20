@@ -38,6 +38,9 @@ public class Main {
         pc2.adaugaProcesor(pc1);
         pc2.adaugaProcesor(c3);
 
+        ProcesorCompus pc3 = new ProcesorCompus();
+        pc2.adaugaProcesor(pc2);
+
         System.out.println(pc2.proceseaza(documente));
     }
 }
